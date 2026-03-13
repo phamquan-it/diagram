@@ -1,4 +1,3 @@
-# diagram
 graph TD
     A[File của bạn] --> B{Có phải binary?}
     
@@ -15,7 +14,9 @@ graph TD
     G --> I[Trích xuất metadata]
     G --> J[Mô tả bằng lời]
     
-    style C fill:#90EE90
-    style E fill:#90EE90
-    style F fill:#FFB6C1
-    style H,I,J fill:#FFD700
+    style C fill:#90EE90,stroke:#333,stroke-width:2px
+    style E fill:#90EE90,stroke:#333,stroke-width:2px
+    style F fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style H fill:#FFD700,stroke:#333,stroke-width:2px
+    style I fill:#FFD700,stroke:#333,stroke-width:2px
+    style J fill:#FFD700,stroke:#333,stroke-width:2px
